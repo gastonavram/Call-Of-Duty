@@ -1,0 +1,97 @@
+@media (prefers-color-scheme: light) {
+  body {
+    background-color: white;
+  }
+
+  nav {
+    background-color: rgba(255, 255, 255, 0.6);
+  }
+
+  nav ul li a {
+    color: black;
+  }
+
+  nav .mobile .header {
+    background-color: rgba(255, 255, 255, 1);
+  }
+
+  nav .mobile .header a {
+    color: black;
+  }
+
+  nav .mobile .header #bmenu {
+    color: black;
+  }
+
+  nav .mobile .links {
+    background-color: white;
+  }
+
+  nav .mobile .links a {
+    color: black;
+  }
+
+  nav .mobile .links a:hover {
+    background-color: black;
+    color: white;
+  }
+
+  #banner {
+    color: black;
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+
+  h2::before {
+    background-color: var(--celeste);
+  }
+
+  .green-button {
+    background-color: var(--celeste);
+    color: black;
+  }
+
+  .green-button:hover {
+    background-color: var(--celesteOscuro);
+  }
+
+  .green-link {
+    color: var(--celeste);
+  }
+
+  .green-link::before {
+    background-color: var(--celeste);
+  }
+
+  h3 {
+    color: black;
+  }
+
+  #videos {
+    color: black;
+  }
+
+  @media screen and (max-width: 1575px) {
+    .info {
+      background-color: rgba(255, 255, 255, 0.8);
+      color: black;
+    }
+  }
+
+  #get-the-game {
+    color: black;
+  }
+
+  #get-the-game h2 {
+    color: black;
+  }
+
+  footer {
+    background-image: url(../img/footer-claro.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+}
